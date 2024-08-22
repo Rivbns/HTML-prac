@@ -1,16 +1,61 @@
 body {
     font-family: Arial,  sans-serif; /* Familia de fuentes */
     font-size: 13px; /* El tamaño de la fuente principal en el tag <p></p> */
-    background-color: #bbadad; /* El color del fondo de la página web */
+    background-color: #00000071; /* El color del fondo de la página web */
     color: #0a0a0a; /* El color del texto*/ 
-}
+}   
 h1 {
-    color: #292a94; /* El color de la cabecera */
+    text-align: center;
+    color: #131591; /* El color de la cabecera */
     font-size: 24px; /* El tamaño de la fuente de la cabecera */
     font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
 }
 h2 {
-    color: #000000; /* El color de la cabecera */
+    text-align: center;
+    color: #6b0f0f; /* El color de la cabecera */
     font-size: 20px; /* El tamaño de la fuente de la cabecera */
     font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
 }
+p { text-align: justify;
+    text-align: center;
+    color: #000000; /* El color de la cabecera */
+    font-size: 15px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */}
+li {color: #000000; /* El color de la cabecera */
+    font-size: 15px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */}
+    .center {
+        width: 286px;
+        height: 176px;
+        border: 2px solid #000000; /* Border color is optional */  
+    }
+    .center1 {
+        width: 273px;
+        height: 185px;
+        border: 2px solid #000000; /* Border color is optional */  
+    }
+@keyframes color-change {
+        0% {
+          color: blue;
+        }
+      
+        50% {
+          color: rgb(0, 255, 0);
+        }
+      
+        100% {
+          color: blue;
+        }
+    }
+    p:hover{
+        animation: color-change 3s infinite;
+    }
+    h2:hover{
+        animation: color-change 3s infinite;
+    }
+    li:hover{
+        animation: color-change 3s infinite;
+    }
+    h1{
+        animation: color-change 3s infinite;
+    }
